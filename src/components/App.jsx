@@ -23,9 +23,9 @@ export const App = () => {
     setShowLoadMoreButton(false);
   };
 
-  const handleOpenModal = evt => {
+  const handleOpenModal = src => {
     setShowModal(true);
-    setModalImg(evt.target.dataset.src);
+    setModalImg(src);
   };
   const handleCloseModal = () => {
     setShowModal(false);
